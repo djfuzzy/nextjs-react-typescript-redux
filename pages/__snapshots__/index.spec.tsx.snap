@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index page should match the snapshot 1`] = `
+<section
+  className="section"
+>
+  <div
+    className="container"
+  >
+    <h1
+      className="title has-text-centered"
+    >
+      Next.js Demo
+    </h1>
+    <p
+      className="has-text-centered"
+    >
+      With:
+    </p>
+    <ul
+      className="has-text-centered"
+    >
+      <li>
+        <strong>
+          React
+        </strong>
+      </li>
+      <li>
+        <strong>
+          Typescript
+        </strong>
+      </li>
+      <li>
+        <strong>
+          Redux Toolkit
+        </strong>
+      </li>
+      <li>
+        <strong>
+          Firebase
+        </strong>
+      </li>
+      <li>
+        <strong>
+          Bulma
+        </strong>
+      </li>
+      <li>
+        and more...
+      </li>
+    </ul>
+    <div
+      className="comment-form"
+    >
+      <div
+        className="card my-3"
+      >
+        <header
+          className="card-header"
+        >
+          <p
+            className="card-header-title"
+          >
+            Add new comment
+          </p>
+        </header>
+        <div
+          className="card-content"
+        >
+          <div
+            className="content"
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <div
+                className="field"
+              >
+                <label
+                  className="label"
+                  htmlFor="name"
+                >
+                  Enter your name
+                </label>
+                <div
+                  className="control"
+                >
+                  <input
+                    autoComplete="name"
+                    className="input  "
+                    disabled={false}
+                    maxLength={100}
+                    name="name"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div
+                className="field"
+              >
+                <label
+                  className="label"
+                  htmlFor="content"
+                >
+                  Enter a comment
+                </label>
+                <div
+                  className="control"
+                >
+                  <textarea
+                    className="textarea "
+                    disabled={false}
+                    maxLength={500}
+                    name="content"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    placeholder="e.g. These pretzils are making me thirsty."
+                  />
+                </div>
+              </div>
+              <div
+                className="field is-grouped"
+              >
+                <div
+                  className="control"
+                >
+                  <button
+                    className="button is-link "
+                    disabled={false}
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="comment-list"
+    >
+      <div
+        className="card my-3"
+      >
+        <div
+          className="card-content"
+        >
+          <div
+            className="content"
+          >
+            <table
+              className="table is-hoverable "
+            >
+              <thead>
+                <tr>
+                  <th>
+                    Added
+                  </th>
+                  <th>
+                    Name
+                  </th>
+                  <th>
+                    Comment
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr
+                  className="is-clickable"
+                  onClick={[Function]}
+                >
+                  <td>
+                    03/22/2021
+                  </td>
+                  <td>
+                    Homer Simpson
+                  </td>
+                  <td>
+                    Purple is a fruit.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

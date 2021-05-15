@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Selected page should match the snapshot 1`] = `
+<section
+  className="section"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="comment-form"
+    >
+      <div
+        className="card my-3"
+      >
+        <header
+          className="card-header"
+        >
+          <p
+            className="card-header-title"
+          >
+            Comment
+          </p>
+        </header>
+        <div
+          className="card-content"
+        >
+          <div
+            className="content"
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <div
+                className="field"
+              >
+                <p>
+                  Added 
+                  03/22/2021
+                   by
+                   
+                  <strong>
+                    Homer Simpson
+                  </strong>
+                </p>
+              </div>
+              <div
+                className="field"
+              >
+                <div
+                  className="control"
+                >
+                  <textarea
+                    className="textarea "
+                    disabled={false}
+                    maxLength={500}
+                    name="content"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    placeholder="e.g. These pretzils are making me thirsty."
+                  />
+                </div>
+              </div>
+              <div
+                className="field is-grouped"
+              >
+                <div
+                  className="control"
+                >
+                  <button
+                    className="button is-link "
+                    disabled={false}
+                    type="submit"
+                  >
+                    Update
+                  </button>
+                </div>
+                <div
+                  className="control"
+                >
+                  <button
+                    className="button is-link is-light"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
